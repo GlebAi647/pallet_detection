@@ -1,0 +1,24 @@
+description: Ultralytics model_pallet_29.04.25 model trained on C:/Users/SuperPC/PycharmProjects/PythonProject/model_pallet_detection/train/data_train/pallet_dataset/data.yaml
+author: Ultralytics
+date: '2025-05-01T15:41:17.888912'
+version: 8.3.121
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 1280
+- 1280
+names:
+  0: human
+  1: pallet
+  2: present
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  dynamic: false
+  nms: true
+channels: 3
